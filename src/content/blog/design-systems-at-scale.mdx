@@ -1,0 +1,22 @@
+---
+title: "Design Systems at Scale"
+excerpt: "How token-driven UI and strict component APIs keep large teams shipping without visual drift."
+date: "2025-11-12"
+readingTime: "6 min"
+---
+
+Building a design system is less about picking colors and more about **contracts**: every component should declare what it accepts, what it renders, and what it never does.
+
+## Start with tokens, not components
+
+Semantic tokens (`--background`, `--foreground`, `--border`) let you retheme without touching feature code. Map shadcn variables once in `globals.css` and treat that file as the single source of truth.
+
+## Composition over configuration
+
+Prefer small primitives (`Button`, `Card`, `Badge`) composed in section shells rather than one-off mega-components. Your portfolio sections should only orchestrate layout — not reinvent buttons.
+
+## Motion with restraint
+
+Scroll reveals and hover glows work when they're **consistent**. Pick one easing curve and one stagger delay; reuse them via shared motion wrappers.
+
+The teams that win treat the design system like a product: versioned, documented, and tested in Storybook or Playwright snapshots before every release.

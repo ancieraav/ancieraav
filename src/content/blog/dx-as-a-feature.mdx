@@ -1,0 +1,22 @@
+---
+title: "Developer Experience as a Feature"
+excerpt: "Strict tooling, frozen lockfiles, and predictable folder structure — why DX is a competitive advantage."
+date: "2026-02-20"
+readingTime: "4 min"
+---
+
+Developer Experience is not a nice-to-have. When onboarding takes hours instead of days, you ship more experiments and fewer regressions.
+
+## Pin your toolchain
+
+Use exact dependency versions and `pnpm install --frozen-lockfile` in CI. Document `engines` in `package.json` so everyone's Node and pnpm match.
+
+## Modular by default
+
+Files under 250 lines, one responsibility per module, content separated from UI — these rules sound strict until you debug a production issue at midnight.
+
+## Automate the boring parts
+
+Lint on commit, typecheck in build, static export for trivial hosting. The goal is to make the **right** path the easy path.
+
+Treat DX investments like product features: measure onboarding time, count "how do I run this?" questions, and iterate.

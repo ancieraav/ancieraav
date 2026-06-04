@@ -1,0 +1,25 @@
+---
+title: "Static Sites That Feel Alive"
+excerpt: "Next.js static export plus client-side interactivity — command palettes, theme toggles, and motion without a server."
+date: "2026-01-08"
+readingTime: "5 min"
+---
+
+Static export does not mean static experience. With Next.js `output: 'export'`, you ship HTML to the edge and hydrate only what needs interactivity.
+
+## What works well statically
+
+- Marketing pages, portfolios, and docs
+- MDX blogs compiled at build time
+- Theme switching via `next-themes`
+- Command palettes (`cmdk`) for navigation
+
+## What to avoid
+
+Server Actions, dynamic API routes, and uncached `fetch` on every request. Keep data in `content/` files or MDX and read them with `fs` during the build.
+
+## Performance mindset
+
+Ship fewer client components. Wrap sections in motion only where it adds clarity — hero, project cards, timeline. Measure with Lighthouse before adding another animation library.
+
+A fast static site that *feels* premium beats a slow dynamic one every time.
