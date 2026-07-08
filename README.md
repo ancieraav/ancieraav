@@ -21,17 +21,9 @@ I'm a software developer who moves fast and adapts faster. I've shipped web apps
 
 ---
 
-## 📢 Content
-
-I run a tech news account on social media where I cover the latest in technology and AI.
-
-- **Instagram:** [@qiantaraa_](https://instagram.com/qiantaraa_)
-- **TikTok:** [@qiantaraa_](https://tiktok.com/@qiantaraa_)
-
----
-
 ## 📬 Open to Opportunities
 
 If you have a project or role that needs someone who ships and figures things out — let's talk:
-- **E-Mail:** ancieraav@proton.me
+- **E-Mail:** [verttra.business@proton.me](mailto:verttra.business@proton.me)
 - **Telegram:** @ancieraav
+- **x:** [@ancieraav](https://www.x.com/ancieraav)
